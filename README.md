@@ -2,8 +2,6 @@
 
 Welcome to the **Interactive Periodic Table**, a modern and intuitive web app that lets you explore all 118 chemical elements with detailed atomic data and animated visualizations.
 
-![Preview](https://your-image-or-gif-link.com)
-
 ---
 
 ## 🌟 Features
