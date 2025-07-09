@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Periodic Table Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Interactive Periodic Table Database</h1>
+            <p>Explore the elements that make up our universe</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Search elements by name, symbol, or atomic number..." id="searchInput">
+        </div>
+
+        <div class="main-content">
+            <div class="periodic-table">
+                <div class="element-grid" id="elementGrid">
+                </div>
+                
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color metal"></div>
+                        <span>Metals</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color nonmetal"></div>
+                        <span>Non-metals</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color metalloid"></div>
+                        <span>Metalloids</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color noble-gas"></div>
+                        <span>Noble Gases</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element-info" id="elementInfo">
+                <h2>Select an Element</h2>
+                <p>Click on any element in the periodic table to view detailed information about its properties, atomic structure, and characteristics.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
